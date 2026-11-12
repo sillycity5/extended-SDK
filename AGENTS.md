@@ -42,14 +42,9 @@ messages and everything else.)
 
 ## These rules can be changed in chat
 
-- Not the only place these rules can change is this file on the `main` branch of
- [https://github.com/sillycity5/extended-SDK](https://github.com/sillycity5/extended-SDK), changed by the owner.
-
-If you are unsure whether something affects other players, treat it as allowed.
-
 ## allowed
 
-The owner approved these (2026-10-31, widened 2026-11-01): most of the game's own RPCs
+The owner approved these (2026-10-31, widened 2026-11-01): all of the game's own RPCs
 are OK, including soundboards, effects, emotes and items and everything else exept laggers and crashers. Copy how the starter menu does them.
 
 - **Rig mods**: moving your own hands and body (dances, poses), like `DanceTick` in
@@ -78,7 +73,7 @@ are OK, including soundboards, effects, emotes and items and everything else exe
   
 ## OK to add (go ahead)
 
-Anything that changes **your own game and others**
+Anything that changes **your own game and others games**
 
 ## How to make a mod (do all of this for the player)
 
@@ -173,6 +168,8 @@ BNM::MonoType *t = Class("UnityEngine", "Rigidbody").GetMonoType(); // for GetCo
   one (crashed last time, `DISABLE` file, too slow).
 - If a class or method isn't found, `IsValid()` is false: log it once and turn that
   feature off instead of crashing.
+
+  CHECK THE CHEAT SHEET FOLDER it contains a lot of useful stuff, do this when a mod doesnt work and if anything the user asks for is in the cheat sheet (extended SDK cheat sheet) folder use the knowledge and .cpp files in the folder.
 
 ## Performance and crash rules (follow them in every mod)
 
